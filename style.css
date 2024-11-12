@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+/* .introSection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+}
+.intro{
+    width: 50%;
+    background-color: whitesmoke;
+    box-shadow: 0 0 6px #333;
+    border-radius: 32px;
+}
+.intro h2{
+    margin-block:16px;
+    font-size: 28px;
+    font-weight: 500;
+}
+.intro p{
+    margin-block: 16px;
+    font-size: 20px;
+}
+button{
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+    margin-block:16px;
+}
+button:hover {
+    background-color: rgba(14, 13, 13);
+} */
+
+
+
+
+.quizSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+.quiz {
+    width: 50%;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: 0 0 6px #333;
+}
+.quiz h1 {
+    font-size: 44px;
+    font-weight: 300;
+    margin-block: 24px;
+}
+.quiz h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-block: 24px;
+}
+
+.quiz hr {
+    width: 90%;
+    height: 4px;
+    margin: 0 auto;
+    border-radius:8px;
+    margin-block: 24px;
+}
+.quizOption {
+    list-style-type: none;
+}
+.quizOption li input[type="radio"] {
+   margin: 16px;
+   background-color: transparent;
+   cursor: pointer;
+}
+.quizOption li label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-block: 16px;
+}
+ #submitBtn{
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+}
+#submitBtn:hover {
+    background-color: rgba(14, 13, 13);
+}
+
+@media screen and (max-width: 480px) {
+    .quiz {
+        width: 90%;
+        color: rgba(67, 62, 62,);
+    }
+    .quiz h2{
+        font-size: 22px;
+    }
+    #submitBtn{
+        padding: 6px 12px;
+    }
+}
